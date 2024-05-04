@@ -17,7 +17,7 @@ BOT_TOKEN = getenv("BOT_TOKEN")
 MONGO_DB_URI = getenv("MONGO_DB_URI", None)
 MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", None)
 PRIVATE_BOT_MODE = getenv("PRIVATE_BOT_MODE", None)
-BOT_USERNAME = getenv("BOT_USERNAME" , "EMMA_MUSICOP_BOT")
+BOT_USERNAME = getenv("BOT_USERNAME" , "Instagram_toxic_music_bot")
 
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 999999))
 
@@ -25,7 +25,7 @@ DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 999999))
 LOGGER_ID = int(getenv("LOGGER_ID", None))
 
 # Get this value from @emma_x_robot on Telegram by /id
-OWNER_ID = int(getenv("OWNER_ID", 6814183827))
+OWNER_ID = int(getenv("OWNER_ID", 6786714566))
 
 ## Fill these variables if you're deploying on heroku.
 # Your heroku app name
@@ -35,15 +35,15 @@ HEROKU_API_KEY = getenv("HEROKU_API_KEY")
 
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
-    "https://github.com/THEMADMAXPRO/MadmaxXMusic",
+    "https://github.com/Pikachu5778/moon",
 )
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "MadmaxXMusic")
 GIT_TOKEN = getenv(
     "GIT_TOKEN", None
 )  # Fill this variable if your upstream repository is private
 
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/STATUSDAIRY2")
-SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/VOICEOFHEART0")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/dpz_hub_05")
+SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/friendssquadron")
 
 # Set this to True if you want the assistant to automatically leave chats after an interval
 AUTO_LEAVING_ASSISTANT = bool(getenv("AUTO_LEAVING_ASSISTANT", False))
